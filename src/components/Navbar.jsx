@@ -7,7 +7,7 @@ import { PiEnvelopeDuotone } from "react-icons/pi";
 const Navbar = ({ setMenuOpened }) => {
   const navItems = [
     { to: "/", label: "Home", icon: <TbHome /> },
-    { to: "/shop", label: "Shop", icon: <IoLibraryOutline /> },
+    { to: "/Book", label: "Book", icon: <IoLibraryOutline /> },
     { to: "/blog", label: "Blog", icon: <TbBrandBlogger /> },
     {
       to: "mailto:info@zibooka.com",
